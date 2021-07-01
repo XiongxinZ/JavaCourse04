@@ -10,10 +10,10 @@ Java Memory Architecture
 
 解释：
 
--XmsSetting — initial Heap size
--XmxSetting — maximum Heap size
--XX:NewSizeSetting — new generation heap size
--XX:MaxNewSizeSetting — maximum New generation heap size
--XX:MaxPermGenSetting — maximum size of Permanent generation
--XX:SurvivorRatioSetting — new heap size ratios (e.g. if Young Gen size is 10m and memory switch is –XX:SurvivorRatio=2, then 5m will be reserved for Eden space and 2.5m each for both Survivor spaces, default value = 8)
--XX:NewRatio — providing ratio of Old/New Gen sizes (default value = 2)
+- XmsSetting — initial Heap size
+- XmxSetting — maximum Heap size
+- XX:NewSizeSetting — new generation heap size
+- XX:MaxNewSizeSetting — maximum New generation heap size
+- XX:MaxPermGenSetting — maximum size of Permanent generation
+- XX:SurvivorRatioSetting — new heap size ratios (e.g. if Young Gen size is 10m and memory switch is –XX:SurvivorRatio=2, then 5m will be reserved for Eden space and 2.5m each for both Survivor spaces, default value = 8)
+- XX:NewRatio — providing ratio of Old/New Gen sizes (default value = 2)
